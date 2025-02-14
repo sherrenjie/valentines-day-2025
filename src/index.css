@@ -1,0 +1,15 @@
+/* src/index.css (or wherever you keep your global styles) */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #ffcbc4;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
