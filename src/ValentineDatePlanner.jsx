@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import PleaseImg from "./assets/Please.png";
+import HappyTomImg from "./assets/HappyTom.png";
 
 const Button = ({ onClick, children, extraClasses = "" }) => (
   <motion.button
@@ -66,7 +68,7 @@ const AnimatedHearts = () => {
 const ValentinePrompt = ({ onAccept, onNoHover, noButtonPos }) => (
   <div className="flex flex-col items-center justify-center space-y-8 relative">
     <img
-      src="/src/Please.png"
+      src= {PleaseImg}
       alt="Please be my Valentine"
       width={250}
       height={250}
@@ -114,7 +116,7 @@ const ValentinePrompt = ({ onAccept, onNoHover, noButtonPos }) => (
 const ItineraryPreview = ({ onShowItinerary }) => (
   <div className="flex flex-col items-center justify-center space-y-6">
     <img
-      src="/src/HappyTom.png"
+      src={HappyTomImg}
       alt="Yay!"
       width={200}
       height={200}
